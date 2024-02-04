@@ -1,0 +1,137 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #d5d8dc;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #b68bbe;
+  color: white;
+  padding: 30px;
+}
+
+.logo_liza {
+  text-decoration: none;
+  color: white;
+  font-size: 1.5em;
+}
+
+nav {
+  display: flex;
+}
+
+.list {
+  text-decoration: none;
+  color: white;
+  margin: 0 15px;
+  padding: 10px;
+  text-transform: capitalize;
+}
+
+.color {
+  background-color: rgb(46, 69, 160);
+  border-radius: 10px;
+}
+
+/* header of  */
+
+/* forms on  */
+
+.form_container {
+  display: flex;
+  justify-content: space-around;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  margin: 30px;
+  gap: 10px;
+}
+
+form input,
+form textarea {
+  padding: 15px;
+}
+
+form button {
+  background-color: #e48fd0;
+  color: rgb(46, 69, 160);
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  border-color: rgb(46, 69, 160);
+  margin-top: 20px;
+}
+
+.email {
+  margin-top: 100px;
+  font-size: 1.8em;
+  font: 1em sans-serif;
+}
+
+/* forms of  */
+
+img {
+  width: 500px;
+}
+
+/* home section  */
+.container {
+  margin: 50px;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.portfolio_pic_div {
+  width: 50%;
+}
+
+.p_text {
+  width: 500px;
+  text-align: justify;
+}
+.about_text {
+  width: 1000px;
+}
+
+h3 {
+  text-transform: uppercase;
+}
+
+/* footer on  */
+
+footer {
+  background-color: #450053;
+  color: blue;
+  text-align: justify;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+}
+
+.contact_information p {
+  margin: 5px 0;
+}
+
+.socmediaicon {
+  width: 30px;
+  margin: 10px 20px;
+}
+
+/* footer off  */
+
+h1,
+h2,
+.about_text {
+  font-size: 1.3em;
+  color: rgb(32, 11, 48);
+}
